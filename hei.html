@@ -16,27 +16,22 @@
         <a href="skins.html">Skins</a>
         <a href="cases.html">Cases</a>
         <a href="about.html">About</a>
-        
     </header>
     
        <input type="Text" placeholder="Search for skins" class="searchbar"/>
     <button type="submit" class="searchbutton">Search</button>
 
-
-
-
-
-
-
-
-
-   
-
-
-
-
-
-   
+    <button onclick="playsound()">Music for the soul</button>
+    
+    <audio id="sound">
+        <source src="Sounds/Music.mp3" type="audio/mpeg">
+    </audio>
+<!-- liten uskylding java script-->
+    <script>
+    function playsound() {
+        document.getElementById("sound").play();
+    }
+</script>
     
 
 
@@ -54,30 +49,20 @@
 
 
 
-     <div class="boks1">
-        <ul>
-        <li>Ak47 Gold arabasque</li>
-        <li>Ak47 Gold arabasque</li>
-        <li>Ak47 Gold arabasque</li>
-        </ul>
-        </div>
-        <div class="boks2">
-            <ul>
-            <li>AWP-dragon lore</li>
-            </ul>
-        </div>
-        <div class="boks3">
-            <ul>
-            <li>AK-47 Redline</li>
-            <li>AK-47 Redline</li>
-            <li>AK-47 Redline</li>
-            </ul>
-            </div>
-        </div>
-        
 
-        
 
-    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
 </body>
 </html>

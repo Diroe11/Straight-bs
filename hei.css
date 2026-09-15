@@ -1,25 +1,9 @@
-.boks1 {
-    Background-color: gold
-
-}
-
-.boks2 {
-    Background-color: rgb(45, 216, 45)
-
-}
-
-.boks3{
-    Background-color: red
-
-} 
 
 body {
     background-color: beige;
     margin:0;
     padding: 0;
 }
-
-
 
 header a {
     text-decoration:none;
@@ -57,4 +41,24 @@ header {
     width: 200px;
     display: block;
     margin: auto;
+}
+
+.logo1 {
+    margin-left:100px; 
+}
+.logo1 {
+    
+    width:200px;
+}
+.price {
+    color:red
+}
+
+.caseimage {
+    width: 250px;
+}
+.case {
+    border:2px solid black;
+    padding: 20px;
+    width: 300px
 }
